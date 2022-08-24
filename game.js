@@ -164,6 +164,8 @@ function gameWin(){
         localStorage.setItem('record_time', playerTime);
         pResult.innerHTML = 'primera vez? muy bien, pero ahora superate';
     }
+    alert(`you win!, your time is: ${playerTime}`);
+    location.reload();
 }
 
 function showLives(){
